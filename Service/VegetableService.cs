@@ -13,7 +13,7 @@ namespace VegStore.Service
         {
             new Vegetable
             {
-                Name = "ટામેટા",
+                Name = "Tomato",
                 Image = "tomato",
                 Price = 5.00,
             },
