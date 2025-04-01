@@ -102,7 +102,6 @@
                                 <Grid Grid.Row="2"
                                       ColumnDefinitions="*, *">
                                     <Label Grid.Column="0"
-                                           Text="{Binding Price, StringFormat=$'{0:N2}'}"
                                            VerticalOptions="Center"
                                            FontAttributes="Bold"/>
                                     <HorizontalStackLayout Grid.Column="1"

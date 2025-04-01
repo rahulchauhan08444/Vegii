@@ -53,9 +53,7 @@
                                         <Label Text="{Binding Name}"
                                                FontSize="20"/>
                                         <Grid ColumnDefinitions="*, *">
-                                            <Label Grid.Column="0"
-                                                   Text="{Binding Price, StringFormat='${0:N2}'}"
-                                                   FontAttributes="Bold"/>
+                                           
                                             <HorizontalStackLayout Grid.Column="1"
                                                     HorizontalOptions="End"
                                                     Spacing="2"

@@ -12,119 +12,142 @@ namespace VegStore.Service
         private readonly static IEnumerable<Vegetable> _Vegetables = new List<Vegetable>
         {
             new Vegetable
-            {
-                Name = "Tomato",
-                Image = "tomato",
-                Price = 5.00,
-            },
-            new Vegetable
-            {
-                Name = "Carrot",
-                Image = "carrot",
-                Price = 7.00,
-            },
-            new Vegetable
-            {
-                Name = "Corn",
-                Image = "corn",
-                Price = 15.00,
-            },
-            new Vegetable
-            {
-                Name = "Red Chill",
-                Image = "red_chili_pepper",
-                Price = 5.00,
-            },
-            new Vegetable
-            {
-                Name = "Pumpkin",
-                Image = "pumpkin",
-                Price = 50.00,
-            },
-            new Vegetable
-            {  
-                Name = "Onion",
-                Image = "onion",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "Ginger",
-                Image = "aadu",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "bit",
-                Image = "bit",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "brinjal",
-                Image = "brinjal",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "brocolli",
-                Image = "brocolli",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "Cabbage",
-                Image = "cabbage",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "Capsicum",
-                Image = "capsicum",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "carrot",
-                Image = "carrot",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "cauliflower",
-                Image = "cauliflower",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "Kothamari",
-                Image = "coriander",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "fansi",
-                Image = "fansi",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "methi",
-                Image = "fenugreek",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "Kakdi",
-                Image = "kakdi",
-                Price = 40
-            },
-            new Vegetable
-            {
-                Name = "Karela",
-                Image = "karela",
-                Price = 40
-            }
+{
+    Name = "ટમેટા",
+    Image = "tomato"
+},
+new Vegetable
+{
+    Name = "ગાજર",
+    Image = "carrot"
+},
+new Vegetable
+{
+    Name = "મકાઈ",
+    Image = "corn"
+},
+new Vegetable
+{
+    Name = "લાલ મરચું",
+    Image = "red_chili_pepper"
+},
+new Vegetable
+{
+    Name = "કોળું",
+    Image = "pumpkin"
+},
+new Vegetable
+{
+    Name = "ડુંગળી",
+    Image = "onion"
+},
+new Vegetable
+{
+    Name = "આદુ",
+    Image = "aadu"
+},
+new Vegetable
+{
+    Name = "બીટ",
+    Image = "bit"
+},
+new Vegetable
+{
+    Name = "રિંગણ",
+    Image = "brinjal"
+},
+new Vegetable
+{
+    Name = "બ્રોકોલી",
+    Image = "brocolli"
+},
+new Vegetable
+{
+    Name = "કોટમરી",
+    Image = "coriander"
+},
+new Vegetable
+{
+    Name = "ફણસી",
+    Image = "fansi"
+},
+new Vegetable
+{
+    Name = "મેથી",
+    Image = "fenugreek"
+},
+new Vegetable
+{
+    Name = "કાકડી",
+    Image = "kakdi"
+},
+new Vegetable
+{
+    Name = "કારેલા",
+    Image = "karela"
+},
+new Vegetable
+{
+    Name = "ભીંડા",
+    Image = "ladyfinger"
+},
+new Vegetable
+{
+    Name = "લસણ",
+    Image = "lasan"
+},
+new Vegetable
+{
+    Name = "લીલું લસણ",
+    Image = "lilu_lasan"
+},
+new Vegetable
+{
+    Name = "મકાઈ",
+    Image = "makay"
+},
+new Vegetable
+{
+    Name = "મરચા",
+    Image = "marcha"
+},
+new Vegetable
+{
+    Name = "મૂળા",
+    Image = "mula"
+},
+new Vegetable
+{
+    Name = "પાલક",
+    Image = "palak"
+},
+new Vegetable
+{
+    Name = "પરવળ",
+    Image = "parval"
+},
+new Vegetable
+{
+    Name = "બટેટા",
+    Image = "potato"
+},
+new Vegetable
+{
+    Name = "શક્કરકંદ",
+    Image = "sakarkolu"
+},
+new Vegetable
+{
+    Name = "સરઘવો",
+    Image = "sarghavo"
+},
+new Vegetable
+{
+    Name = "તુવેર",
+    Image = "tuver"
+}
+
+
         };
 
         public IEnumerable<Vegetable> GetAllVegetables() => _Vegetables;

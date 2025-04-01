@@ -73,15 +73,9 @@
                                          VerticalOptions="Center"
                                          Spacing="2">
                                         <Label Text="{Binding Name}"/>
-                                        <Label Text="{Binding Price, StringFormat='${0:N2}'}"  FontSize="12"/>
-                                    </VerticalStackLayout>
+                                        </VerticalStackLayout>
                                     
-                                    <Label Grid.Column="4"
-                                Text="{Binding Amount, StringFormat='${0:N2}'}"
-                                VerticalOptions="Center"
-                                HorizontalOptions="Center"
-                                           FontSize="15"
-                                           FontAttributes="Bold"/>
+                                   
                                     <Image Grid.Column="5"
                            Source="delete"
                            HeightRequest="25"
@@ -116,11 +110,8 @@
                        VerticalOptions="Center">
                 <Label.FormattedText>
                 <FormattedString>
-                            <Span Text="Total: &#10;"
-                          FontSize="18"/>
-                            <Span Text="{Binding TotalAmount, StringFormat='${0:N2}'}"
-                                  FontSize="20"
-                                  FontAttributes="Bold"/>
+                           
+                           
                  </FormattedString>
                 </Label.FormattedText>
                </Label>
@@ -129,8 +120,8 @@
                         BackgroundColor="LightGreen"
                         CornerRadius="22"
                         VerticalOptions="Center"
-                        HorizontalOptions="End"
-                        Padding="25, 10"
+                        HorizontalOptions="Center"
+                        Padding="20,10"
                         Command="{Binding PlaceOrderCommand}"/>
             </Grid>
         </Border>

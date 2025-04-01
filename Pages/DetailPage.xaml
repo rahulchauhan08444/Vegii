@@ -35,9 +35,7 @@
                        FontAttributes="Bold"
                        HorizontalOptions="Center"/>
                 <Grid ColumnDefinitions="*, *">
-                    <Label Grid.Column="0"
-                        Text="{Binding Vegetable.Price, StringFormat='${0:N2}'}"
-                        FontAttributes="Bold"/> 
+                     
                     <HorizontalStackLayout Grid.Column="1"
                          HorizontalOptions="End"
                          Spacing="2"
@@ -81,8 +79,6 @@
             ColumnDefinitions="*, *">
                 <Label Grid.Row="0"
             Grid.Column="0"
-            Text="{Binding Vegetable.Amount,
-            StringFormat='${0:N2}'}"
             FontSize="20"
             TextColor="White"
             FontAttributes="Bold"
