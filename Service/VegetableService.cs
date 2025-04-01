@@ -19,18 +19,6 @@ namespace VegStore.Service
             },
             new Vegetable
             {
-                Name = "Bell Pepper",
-                Image = "bell_pepper",
-                Price = 9.00,
-            },
-            new Vegetable
-            {
-                Name = "Broccoli",
-                Image = "broccoli",
-                Price = 12.00,
-            },
-            new Vegetable
-            {
                 Name = "Carrot",
                 Image = "carrot",
                 Price = 7.00,
@@ -43,12 +31,6 @@ namespace VegStore.Service
             },
             new Vegetable
             {
-                Name = "Lettuce",
-                Image = "salad",
-                Price = 11.00,
-            },
-            new Vegetable
-            {
                 Name = "Red Chill",
                 Image = "red_chili_pepper",
                 Price = 5.00,
@@ -58,6 +40,90 @@ namespace VegStore.Service
                 Name = "Pumpkin",
                 Image = "pumpkin",
                 Price = 50.00,
+            },
+            new Vegetable
+            {  
+                Name = "Onion",
+                Image = "onion",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "Ginger",
+                Image = "aadu",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "bit",
+                Image = "bit",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "brinjal",
+                Image = "brinjal",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "brocolli",
+                Image = "brocolli",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "Cabbage",
+                Image = "cabbage",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "Capsicum",
+                Image = "capsicum",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "carrot",
+                Image = "carrot",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "cauliflower",
+                Image = "cauliflower",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "Kothamari",
+                Image = "coriander",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "fansi",
+                Image = "fansi",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "methi",
+                Image = "fenugreek",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "Kakdi",
+                Image = "kakdi",
+                Price = 40
+            },
+            new Vegetable
+            {
+                Name = "Karela",
+                Image = "karela",
+                Price = 40
             }
         };
 
